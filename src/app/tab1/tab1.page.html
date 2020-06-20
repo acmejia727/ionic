@@ -12,6 +12,17 @@
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
   </ion-header>
+  
+  <p>Hola mundo</p>
+  <a href="/contact">
+  <ion-button color="primary">ir a contacto</ion-button>
+</a>
+
+{{nombre}}
+
+  <ion-button color="primary" routerLink="/contact">ir a contacto</ion-button>
+
+  <ion-button color="primary" (click)="conctato()" >ir a contacto</ion-button>
 
   <app-explore-container name="Tab 1 page"></app-explore-container>
 </ion-content>
